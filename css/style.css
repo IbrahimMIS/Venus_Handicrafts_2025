@@ -1098,6 +1098,8 @@ del {
 .cu_parent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 
 }
 
@@ -1165,7 +1167,7 @@ button:hover {
 
 .cu_content {
     padding: 15px;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .cu_content h3 {
@@ -1192,9 +1194,9 @@ button:hover {
 
 /* Responsive-css */
 @media (max-width: 768px) {
-    .child {
-        flex: 1 1 100%;
-    }
+    .cu_child {
+    flex: 1 1 100%;
+}
 
     .cu_content h3 {
         font-size: 20px;
